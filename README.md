@@ -1,28 +1,6 @@
 React Native Full Stack App
 
-This repository contains a React Native + Expo application featuring:
-
-🔗 API integration
-
-🧭 Navigation
-
-🔐 Authentication
-
-🎨 Modern UI practices
-
-🚀 Features
-
-React Native + Expo — build once, run on iOS, Android, and web.
-
-Appwrite backend — database, authentication, and API integration.
-
-Navigation — clean stack & tab navigation patterns.
-
-Authentication flow — sign up, log in, and manage sessions.
-
-Dynamic data — real-time API data fetching & display.
-
-Modern UI — styled with Tailwind-like utilities and responsive design practices.
+This repository contains a React Native + Expo application allowing for mobile users to search movies via the TMDB API and display trending movies based on users search
 
 🛠️ Tech Stack
 
@@ -69,3 +47,11 @@ EXPO_PUBLIC_APPWRITE_COLLECTION_ID
 npx expo start
 
 Scan the QR code in the Expo Go app (iOS/Android) or run in a simulator.
+
+
+Current Modifications include:
+1. Updatated database logging to utilize movie.id rather than user search queries, for reliable logging for trending movies
+
+Pending features:
+1. User Login for saving search movies
+2. Saved movies tab
