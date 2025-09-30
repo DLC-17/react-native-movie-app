@@ -1,50 +1,97 @@
-# Welcome to your Expo app 👋
+React Native Full Stack App — Code-Along (2025)
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+Code-along project for “React Native Course for Beginners in 2025 | Build a Full Stack React Native App.”
 
-## Get started
+This repository contains a React Native + Expo application featuring:
 
-1. Install dependencies
+🔗 API integration
 
-   ```bash
-   npm install
-   ```
+🧭 Navigation
 
-2. Start the app
+🔐 Authentication
 
-   ```bash
-   npx expo start
-   ```
+🎨 Modern UI practices
 
-In the output, you'll find options to open the app in a
+It’s designed as a hands-on introduction to full stack mobile development.
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+🚀 Features
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+React Native + Expo — build once, run on iOS, Android, and web.
 
-## Get a fresh project
+Appwrite backend — database, authentication, and API integration.
 
-When you're ready, run:
+Navigation — clean stack & tab navigation patterns.
 
-```bash
-npm run reset-project
-```
+Authentication flow — sign up, log in, and manage sessions.
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+Dynamic data — real-time API data fetching & display.
 
-## Learn more
+Modern UI — styled with Tailwind-like utilities and responsive design practices.
 
-To learn more about developing your project with Expo, look at the following resources:
+🛠️ Tech Stack
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+Frontend: React Native (Expo)
 
-## Join the community
+Backend: Appwrite (Database + Auth)
 
-Join our community of developers creating universal apps.
+Navigation: React Navigation
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+Styling: Tailwind CSS (NativeWind)
+
+API: TMDB API (movies)
+
+📂 Project Structure
+/project-root
+ ├── /src
+ │    ├── /components      # Reusable UI components
+ │    ├── /screens         # App screens (Home, Auth, Search, etc.)
+ │    ├── /services        # API + Appwrite logic
+ │    ├── /navigation      # Stack & Tab navigators
+ │    └── App.tsx          # Entry point
+ ├── app.json              # Expo config
+ ├── package.json
+ └── README.md
+
+🔧 Installation & Setup
+1. Clone the repo
+git clone https://github.com/your-username/react-native-fullstack-2025.git
+cd react-native-fullstack-2025
+
+2. Install dependencies
+npm install
+
+3. Configure environment variables
+
+Create a .env file in the project root:
+
+EXPO_PUBLIC_APPWRITE_PROJECT_ID=your_project_id
+EXPO_PUBLIC_APPWRITE_DATABASE_ID=your_database_id
+EXPO_PUBLIC_APPWRITE_COLLECTION_ID=your_collection_id
+
+4. Run the app
+npx expo start
+
+
+Scan the QR code in the Expo Go app (iOS/Android) or run in a simulator.
+
+📖 Learning Goals
+
+By the end of this project, you will:
+
+Understand how to set up and structure a React Native + Expo project.
+
+Learn to use Appwrite for backend services (auth, database).
+
+Implement modern navigation patterns with React Navigation.
+
+Handle API data fetching, display, and caching.
+
+Apply best practices for UI, state management, and developer workflow.
+
+🤝 Contributing
+
+This project is primarily for educational purposes, but PRs for fixes or improvements are welcome.
+
+📜 License
+
+MIT License. Free to use and modify for learning or personal projects.
