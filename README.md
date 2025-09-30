@@ -47,3 +47,11 @@ EXPO_PUBLIC_APPWRITE_COLLECTION_ID
 npx expo start
 
 Scan the QR code in the Expo Go app (iOS/Android) or run in a simulator.
+
+
+Current Modifications include:
+1. Updatated database logging to utilize movie.id rather than user search queries, for reliable logging for trending movies
+
+Pending features:
+1. User Login for saving search movies
+2. Saved movies tab
