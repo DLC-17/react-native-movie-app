@@ -7,8 +7,8 @@ import { icons } from '@/constants/icons'
 interface Props{
     placeholder: string;
     onpress?: ()=> void;
-    value: string;
-    onChangeText: (text: string) => void;
+    value?: string;
+    onChangeText?: (text: string) => void;
 }
 
 const SearchBar = ({placeholder, onpress, value, onChangeText}: Props) => {
